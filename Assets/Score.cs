@@ -12,7 +12,6 @@ public class Score : MonoBehaviour
     //スコア
     private int score = 0;
 
-
     // Use this for initialization
     void Start()
     {
@@ -52,4 +51,3 @@ public class Score : MonoBehaviour
         this.scoreText.GetComponent<Text>().text = score + "pt";
     }
 }
-

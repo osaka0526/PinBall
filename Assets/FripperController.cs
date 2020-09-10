@@ -124,7 +124,6 @@ public class FripperController : MonoBehaviour
                         {
                             SetAngle(this.flickAngle);
                         }
-
                     }
                     Debug.Log("タッチを継続中ですが動いていません。");
                     break;
@@ -149,4 +148,3 @@ public class FripperController : MonoBehaviour
         this.myHingeJoint.spring = jointSpr;
     }
 }
-
